@@ -4,6 +4,9 @@ LOCAL_PATH:= $(call my-dir)
 include $(CLEAR_VARS)
 
 LOCAL_MODULE_TAGS := optional
+
+LOCAL_CFLAGS += -Os
+
 src_dirs:= src/org/codeaurora/bluetooth/btcservice \
            src/org/codeaurora/bluetooth/ftp \
            src/org/codeaurora/bluetooth/dun \
